@@ -1823,8 +1823,8 @@ p {
   background: #5f57ae47;
   background-image: url(../images/hero-shape-1.png);
   background-repeat: no-repeat;
-  background-size: auto;
-  background-position: 6% 100%;
+  background-size: cover;
+  background-position: center;
   padding-top: 140px;
   padding-bottom: 60px;
 }
@@ -2423,7 +2423,7 @@ p {
 .appie-hero-content-2 > span {
   font-size: 42px;
   font-weight: 500;
-  color: #8161aa;
+  color: #ffffff;
   position: relative;
   font-family: "aptos-bold", sans-serif;
 }
@@ -2475,7 +2475,7 @@ p {
 }
 .appie-hero-content-2 p {
   font-size: 18px;
-  color: #1f1f36;
+  color: #ffffff;
   margin-top: 22px;
 }
 .appie-hero-content-2 .input-box {
