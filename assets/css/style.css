@@ -1820,12 +1820,10 @@ p {
           animation: linear 25s animationFramesFive infinite;
 }
 .appie-hero-area.appie-hero-4-area {
-  background: #5f57ae47;
-  background-image: url(../images/hero-shape-1.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-top: 140px;
+  padding-top: 95px;
   padding-bottom: 60px;
 }
 .appie-hero-area.appie-hero-6-area {
@@ -2330,7 +2328,7 @@ p {
   width: 160px;
   top: 200px;
   left: 70px;
-  background: #801f82;
+  background: #801f8200;
   transform: translate(0%, 0%);
 }
 .appie-hero-thumb.appie-hero-thumb-4 .hero-dot {
@@ -3381,7 +3379,7 @@ p {
   top: 0;
   height: 30px;
   width: 30px;
-  background: #ff3e66;
+  background: #cf87ca;
   border: 6px solid #2a182d;
   border-radius: 50%;
 }
@@ -3395,7 +3393,7 @@ p {
   border-color: #ff3e66;
 }
 .appie-features-box-item.item-2 .title::before {
-  background: #2eacfc;
+  background: #ffffff;
   border-color: #15233d;
 }
 .appie-features-box-item.item-2:hover {
