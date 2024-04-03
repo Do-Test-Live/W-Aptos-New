@@ -36,6 +36,31 @@
     <!--====== Style css ======-->
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <style>
+        .register-button {
+            position: absolute;
+            bottom: 100px;
+            left: 22%;
+            background-color: #8161aa;
+            font-size: 24px;
+            color: white;
+            padding: 20px 61px;
+            border-radius: 10px;
+
+        }
+        @media only screen and (max-width: 980px) {
+            .register-button {
+                bottom: 5px;
+                left: 21%;
+                width: 80px;
+                height: auto;
+                font-size: 8px;
+                padding: 6px;
+                border-radius: 5px;
+            }
+        }
+    </style>
+
 
 </head>
 
@@ -121,34 +146,17 @@
     <div class="container">
         <div class="header-nav-box header-nav-4-box">
             <div class="row align-items-center">
-                <div class="col-lg-2 col-md-4 col-sm-5 col-6 order-1 order-sm-1">
+                <div class="col-4 col-lg-3 order-1 order-sm-1">
                     <div class="appie-logo-box">
                         <a href="#">
                             <img src="assets/images/logo-5.png" alt="">
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-8 col-md-1 col-sm-1 order-3 order-sm-2 text-end">
-                    <div class="appie-header-main-menu">
-                        <!--<ul>
-                            <li>
-                                <a href="#">Home</a>
-                            </li>
-                            <li>
-                                <a href="#">About Us</a>
-                            </li>
-                            <li>
-                                <a href="#">Service</a>
-                            </li>
-                            <li>
-                                <a href="#">News</a>
-                            </li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>-->
-                    </div>
-                </div>
-                <div class="col-lg-2  col-md-7 col-sm-6 col-6 order-2 order-sm-3">
+                <div class="col-4 col-lg-9 text-right order-2 order-sm-3">
                     <img src="assets/images/Aptos-Logos-4.png" style="width: 150px; height: auto"/>
+                </div>
+                <div class="col-4 order-3 order-sm-3">
                     <div class="appie-btn-box text-right">
                         <div class="toggle-btn ml-30 canvas_open d-lg-none d-block">
                             <i class="fa fa-bars"></i>
@@ -165,13 +173,16 @@
 <!--====== APPIE HERO PART START ======-->
 
 <section class="appie-hero-area appie-hero-4-area">
-        <div class="row align-items-center">
-            <div class="col-lg-12">
-                <div class="appie-hero-thumb appie-hero-thumb-4">
-                    <img src="assets/images/Namica-Website-EN+CN-Banner-1.jpg" alt="">
-                </div>
+    <div class="row align-items-center">
+        <div class="col-lg-12">
+            <div class="appie-hero-thumb appie-hero-thumb-4">
+                <img src="assets/images/Namica-Website-EN+CN-Banner-1.jpg" alt="">
+                <a href="https://forms.office.com/e/N3PD4LL4n0" class="register-button">
+                    Register Now
+                </a>
             </div>
         </div>
+    </div>
     <div class="hero-shape-1">
     </div>
 </section>
@@ -181,7 +192,7 @@
 
 <!--====== APPIE VIDEO PLAYER PART START ======-->
 
-<section class="appie-video-player-area pb-100">
+<section class="appie-video-player-area pt-100">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -247,7 +258,7 @@
 
 <!--====== APPIE FEATURES 2 PART START ======-->
 
-<section class="appie-features-area-2 pt-90 pb-100" id="features">
+<section class="appie-features-area-2 pt-90" id="features">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-12">
@@ -290,22 +301,13 @@
             </div>
         </div>
     </div>
-    <div class="features-shape-1">
-        <img src="assets/images/shape/shape-15.png" alt="">
-    </div>
-    <div class="features-shape-2">
-        <img src="assets/images/shape/shape-14.png" alt="">
-    </div>
-    <div class="features-shape-3">
-        <img src="assets/images/shape/shape-13.png" alt="">
-    </div>
 </section>
 
 <!--====== APPIE FEATURES 2 PART ENDS ======-->
 
 <!--====== APPIE ABOUT 3 PART START ======-->
 
-<section class="appie-about-3-area pt-100 pb-100" id="features">
+<section class="appie-about-3-area pt-100" id="features">
     <div class="container">
         <div class="row flex align-items-center justify-content-center">
             <div class="col-12 col-lg-6">
@@ -322,30 +324,30 @@
                 <img src="assets/images/namica-logo-materials-6.jpg" class="img-fluid"/>
             </div>
         </div>
-        <div class="row mt-3">
+        <div class="row mt-5">
             <div class="col-lg-4">
                 <div class="appie-traffic-service mb-30">
-                    <div class="icon">
-                        <img src="assets/images/icon/5.svg" alt="">
-                    </div>
+                   <!-- <div class="icon">
+                        <img src="assets/images/icon/micro.png" style="width: 30px; height: auto;" alt="">
+                    </div>-->
                     <h5 class="title">Micro</h5>
                     <p>First 14 days, acting against irritation after injection.</p>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="appie-traffic-service item-2 mb-30">
-                    <div class="icon">
-                        <img src="assets/images/icon/1.png" alt="">
-                    </div>
+                    <!--<div class="icon">
+                        <img src="assets/images/icon/sub-micro.png" style="width: 30px; height: auto;" alt="">
+                    </div>-->
                     <h5 class="title">Sub micro</h5>
                     <p>Bursting for 1-3 months, stimulating collagen production.</p>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="appie-traffic-service item-3 mb-30">
-                    <div class="icon">
-                        <img src="assets/images/icon/1.png" alt="">
-                    </div>
+                    <!--<div class="icon">
+                        <img src="assets/images/icon/nano.png" style="width: 30px; height: auto;" alt="">
+                    </div>-->
                     <h5 class="title">Nano</h5>
                     <p>Bursting and delivering HA after 3 months.</p>
                 </div>
@@ -363,7 +365,7 @@
                 <img src="assets/images/products/3.jpg" class="img-fluid"/>
             </div>
         </div>
-        <div class="row mt-5">
+        <div class="container-fluid row mt-5">
             <p>Enjoy up to 6 months of HA action and more than 1 year of results, with a delivery
                 that is 25 times more HA-efficient. Different sizes of HA molecules efficiently cover
                 the thread, minimizing empty spaces and ensuring a consistent, natural look.</p>
@@ -374,7 +376,7 @@
 </section>
 
 
-<section class="appie-video-player-area pb-100">
+<section class="appie-video-player-area pt-25">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -403,12 +405,12 @@
             <div class="col-lg-6 col-md-6">
                 <div class="footer-about-widget footer-about-widget-5">
                     <div class="logo">
-                        <a href="#"><img src="assets/images/Aptos-Logos-4.png" alt=""></a>
+                        <a href="#"><img src="assets/images/Aptos-Logos-4.png" style="width: 250px; height: auto" alt=""></a>
                     </div>
                     <div class="logo mt-5">
-                        <a href="#"><img src="assets/images/logo-5.png" alt=""></a>
+                        <a href="#"><img src="assets/images/logo-5.png" style="width: 250px; height: auto" alt=""></a>
                     </div>
-                    <p>The innovation that promises to set a new
+                    <p style="color: #ffffff;">The innovation that promises to set a new
                         standard for excellence and longevity in the field of Aesthetic Medicine.</p>
                     <div class="social mt-30">
                         <!--<ul>
@@ -434,7 +436,7 @@
             </div>-->
             <div class="col-lg-6 col-md-6">
                 <div class="footer-widget-info">
-                    <h4 class="title">Get In Touch</h4>
+                    <h4 class="title" style="color: #fff;">Get In Touch</h4>
                     <ul>
                         <li><a href="#"><i class="fal fa-envelope"></i> info.hk@aptos.global</a></li>
                         <li><a href="#"><i class="fal fa-phone"></i> +(852) 5364 5565</a></li>
@@ -454,8 +456,9 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="footer-copyright d-flex align-items-center justify-content-center pt-35">
-                    <div class="copyright-text">
-                        <p>Copyright © 2024 Namica Technology. All rights reserved.</p>
+                    <div class="copyright-text text-center">
+                        <p>Copyright © 2024 Namica Technology.</p>
+                        <p>All rights reserved.</p>
                     </div>
                 </div>
             </div>
